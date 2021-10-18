@@ -1,0 +1,10 @@
+version: '3' 
+services: 
+  us_stock_price:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/home/jovyan
+    ports: 
+      - '8888:8888'
