@@ -8,3 +8,5 @@ services:
       - .:/home/jovyan
     ports: 
       - '8888:8888'
+    command: >
+      jupyter notebook --NotebookApp.token=''
