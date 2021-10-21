@@ -14,4 +14,4 @@ docker-compose build
 ```
 docker-compose up
 ```
-起動後、ブラウザで`localhost:8888`にアクセスしてください。
+起動後、ブラウザで http://localhost:8888 にアクセスしてください。
